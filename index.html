@@ -9,18 +9,21 @@
 </head>
 
 <body>
-  <div class="matrix-block"><img src="./eisenhower-matrix.jpg">
+  <header class="matrix-block">
+    <img src="./eisenhower-matrix.jpg">
     <a class="matrix-block-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more
       details?</a>
-  </div>
-  <div class="task-block">
-    <p id="task-block-title">
+  </header>
+
+  <main class="task-block">
+    <section id="task-block-title">
       <label for="new-task">Add Item</label>
-    <div class="task-row-wrapper">
-      <input id="new-task" class="task" type="text"><button>Add</button>
-    </div>
-    </p>
-    <h3>Todo</h3>
+      <div class="task-row-wrapper">
+        <input id="new-task" class="task" type="text"><button>Add</button>
+      </div>
+    </section>
+
+    <h2>Todo</h2>
     <ul id="incomplete-tasks">
       <li>
         <input type="checkbox">
@@ -46,7 +49,7 @@
         <button class="delete"><img src="./remove.svg"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
