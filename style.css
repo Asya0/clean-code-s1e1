@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.matrix-block {
+.header{
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -16,19 +16,19 @@
   width: 100%;
 }
 
-.matrix-block .matrix-block-link {
+.header .header__link{
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .matrix-block {
+  .header {
     text-align: center;
   }
 
 }
 
-.task-block {
+.main__section {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section__content {
   display: flex;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .items,
-h2 {
+.h2 {
   list-style: none;
 }
 
